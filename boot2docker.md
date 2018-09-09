@@ -23,6 +23,7 @@ se connecter avec un shell: docker exec -ti nomConteneur bash:
 
 <code>
   cp /var/lib/boot2docker/docker-compose /usr/local/bin/docker-compose
+  
   chmod +x /usr/local/bin/docker-compose                              
 </code>
 
