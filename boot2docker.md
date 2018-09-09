@@ -1,6 +1,6 @@
 # Boot2docker
 
-- boot2docker ssh : lance la VM docker
+- boot2docker start puis boot2docker ssh : lance la VM docker et s'y connecte
 - boot2docker ip: Permet de trouver l'IP de la machine virtuelle
 - boot2docker stop: Arrête j'arrête docker
 - repertoire persistant: /var/lib/boot2docker
@@ -26,6 +26,10 @@ se connecter avec un shell: docker exec -ti nomConteneur bash:
   
   chmod +x /usr/local/bin/docker-compose                              
 </code>
+
+## Utilisation
+
+docker-compose up (dans le rep contenant docker-compose.yml)
 
 # Sauvegarder les données
 
