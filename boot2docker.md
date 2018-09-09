@@ -13,6 +13,19 @@
 docker ps -a : liste les conteneurs
 se connecter avec un shell: docker exec -ti nomConteneur bash: 
 
+# Compose
+
+## Installation
+
+- Récupérer le binaire via curl
+- Copier le fichier dans /var/lib/boot2docker
+- Dans /var/lib/boot2docker/bootlocal.sh rajouter les lignes suivantes afin de positionner le binaire à l'endroit voulu à chaque redemarrage
+
+<code>
+  cp /var/lib/boot2docker/docker-compose /usr/local/bin/docker-compose
+  chmod +x /usr/local/bin/docker-compose                              
+</code>
+
 # Sauvegarder les données
 
 - dans la VM faire un partage de disque avec montage automatique 
